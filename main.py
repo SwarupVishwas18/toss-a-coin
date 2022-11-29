@@ -1,6 +1,10 @@
 # Create Toss Game
-
-from colorama import Fore
+try:
+    from colorama import Fore
+except:
+    print("Sorry, it seems you haven't install the required packeges")
+    print("Run : ")
+    print("\t pip install colorama")
 from random import shuffle
 import normal
 from time import sleep
