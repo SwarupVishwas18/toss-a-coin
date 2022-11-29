@@ -1,10 +1,12 @@
 # Create Toss Game
+import sys
 try:
     from colorama import Fore
 except:
     print("Sorry, it seems you haven't install the required packeges")
     print("Run : ")
     print("\t pip install colorama")
+    sys.exit()
 from random import shuffle
 import normal
 from time import sleep
